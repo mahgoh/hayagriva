@@ -186,7 +186,7 @@ impl<'a> CitationStyle<'a> for ChicagoAuthorDate {
 
             let space = if let Some(date) = date {
                 if !s.is_empty() {
-                    s.push(' ');
+                    s.push(', ');
                 }
                 s += &date.display_year();
                 false
