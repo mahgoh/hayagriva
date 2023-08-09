@@ -132,7 +132,7 @@ pub struct ChicagoConfig {
 impl Default for ChicagoConfig {
     fn default() -> Self {
         Self {
-            et_al_limit: Some(4),
+            et_al_limit: Some(3),
             url_access_date: ChicagoAccessDateVisibility::default(),
             title_case: TitleCase::new(),
             sentence_case: SentenceCase::new(),
